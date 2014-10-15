@@ -1,0 +1,5 @@
+# importe les routes d'un répertoire Controller
+blog:
+    resource: "@BoAdminBundle/Controller"
+    type:     annotation
+    prefix: /admin
